@@ -53,15 +53,15 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-green-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <header className="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-500 shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Mushrooms.ink</h1>
-              <p className="text-lg text-gray-600 mt-1">Comprehensive Mushroom & Mycelium Company Database</p>
+              <h1 className="text-4xl font-bold text-white drop-shadow-lg">Mushrooms.ink</h1>
+              <p className="text-xl text-green-50 mt-2 font-medium">Comprehensive Mushroom & Mycelium Company Database</p>
             </div>
             <div className="mt-4 md:mt-0">
-              <p className="text-sm text-gray-500">Discover the future of sustainable innovation</p>
+              <p className="text-green-100 text-lg font-medium">Discover the future of sustainable innovation</p>
             </div>
           </div>
         </div>
